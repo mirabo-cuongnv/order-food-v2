@@ -3,7 +3,7 @@
 import React from "react";
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
-import { auth } from "../shared/lib/firebase/config";
+import { auth } from "../../shared/lib/firebase/config";
 
 const SignIn = () => {
   const onGoogleLogin = async () => {
